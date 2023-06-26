@@ -8,3 +8,12 @@ if (array[i] > 30) {
 }
 }
 overThirty();
+
+function belowThirty(){
+    for (var i = 0; i < array.length; i++){
+        if (array[i] < 30) {
+            console.log(array[i]);
+        }
+}
+}
+belowThirty()
